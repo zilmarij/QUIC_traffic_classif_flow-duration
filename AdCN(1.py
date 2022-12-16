@@ -137,7 +137,7 @@ if __name__ == '__main__':
     #Parse
     #Cluster
     #Classify
-    s='/home/zilmarij/Downloads/Dataset/'
+    s='path_to_dataset'
     for i in range(30):   #15 files to take data from
         path= s + "Youtube-" + "%s" %i +'.txt'
         parse(path)
@@ -183,7 +183,7 @@ if __name__ == '__main__':
 
     online=1
 
-    path= "/home/zilmarij/Downloads/Testing_Data"
+    path= "path_to_Testing_Data"
     for i in range(11):
         pl_test=[]
         path = s + "Youtube-" + "%s" %i+ ".txt"
