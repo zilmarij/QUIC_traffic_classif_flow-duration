@@ -183,7 +183,7 @@ if __name__ == '__main__':
 
     online=1
 
-    path= "path_to_Testing_Data"
+    s= "path_to_Testing_Data"
     for i in range(11):
         pl_test=[]
         path = s + "Youtube-" + "%s" %i+ ".txt"
